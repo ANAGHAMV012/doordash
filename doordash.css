@@ -14,11 +14,13 @@ header{
     /* background-size: 100%; */
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(images/desktop.webp);
+    background-attachment: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/hp-hero-vp4@4x-static?scl=1");
     padding: 0px 8px;
     background-size: cover;
 }
 .nav{
+    width: 1835px;
+    height: 40px;
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -37,18 +39,25 @@ header{
     list-style: none;
 }
 .head{
+    width: 742.42px;
+    height: 578px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 11vh;
     align-items: center;
     color: white;
-    font-size: 30;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 .head h2{
-    font-size: 38px;
+    font-size: 40px;
+    width: 742.42px;
+    height: 40px;
+    color: #FFFFFF;
+    text-wrap: nowrap;
 }
 .logo{
     width: 0;
@@ -70,6 +79,8 @@ header{
     top: -18px;
 }
 .sign-in{
+    width: 78.03px;
+    height: 40px;
     color: white;
     background-color: #EB1700;
     border-radius: 25px;
@@ -77,33 +88,43 @@ header{
     margin-right: 1;
     border: none;
 }
+.sign-in span{
+    width: 78.03px;
+    height: 24px;
+}
 .sign-in:hover{
     background-color: rgb(209, 65, 65);
 }
 .sign-up{
+    width: 86.48px;
+    height: 40px;
     border-radius: 25px;
     background-color: white;
     color: black;
     padding: 13px;
     border: none;
 }
+.sign-up span{
+    width: 86.48px;
+    height: 24px;
+}
 .search{
     position: relative;
-    width: 400px;
-    height: 50px;
-    background-color: white;
+    width: 408px;
+    height: 56px;
+    background-color: #FFFFFF;;
     border-radius: 60px;
     display: flex;
     align-items: center;
-    padding: 2px;
+    padding: 8px 8px 8px 20px;
     cursor: pointer;
     top: 30px;
     border: 1px solid rgb(0, 162, 255);
 }
-.search > i{
+.search i{
     font-size: 20px;
 }
-.search > input{
+.search input{
     flex: 1;
     height: 24;
     border: none;
@@ -129,15 +150,21 @@ header{
     color: black;
     font-weight: bold;
 }
-.Sign .user{
+.user{
+    width: 203.5px;
     color: black;
     display: flex;
     border-radius: 25px;
     align-items: center;
     margin-top: 28px;
-    background-color: white;
+    background-color: #FFFFFF;
     border: none;
-    height: 30px;
+    height: 32px;
+    margin: 16px 0px 0px;
+}
+.user span{
+    display: flex;
+    align-items: center;
 }
 .user i{
     margin-left: 20px;

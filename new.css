@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 1835px;
+    height: 650px;padding: 0px 8px;
+    background-image: url(images/desktop.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-logo{
+    width: 209px;
+    height: 24px;
+}
+.head{
+    width: 742.42px;
+    height: 40px;
+}
+.head .head-txt{
+    width: 742.42px;
+    height: 40px;
+}
+.head-txt h2{
+    width: 742.42px;
+    height: 40px;
+}
+.upper{
+    width: 1835px;
+    height: 40px;
+}
+.nav-sub{
+    width: 1835px;
+    height: 40px;
+}
+.nav{
+    width: 1835px;
+    height: 40px;
+    /* padding: 0px 24px 0px 0px; */
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+} 
+.logo{
+    width: 209px;
+    height: 24px;
+}
+.logo img{
+    width:220px;
+}
+.nav-sub .in-a{
+    width: 78.03px;
+    height: 40px;
+}
+.nav-sub .in-a button{
+    width: 78.03px;
+    height: 24px;
+}
+.nav-sub .in-a button span{
+    width: 54.03px;
+    height: 24px;
+}
+.nav-sub .up-a{
+    width: 86.48px;
+    height: 40px;
+}
+.nav-sub .up-a button{
+    width: 86.48px;
+    height: 24px;
+}
+.nav-sub .up-a button span{
+    width: 62.48px;
+    height: 24px;
+}
+/*.sign-in{
+    width: 78.03px;
+    height: 40px;
+    color: white;
+    background-color: #EB1700;
+    border-radius: 25px;
+    padding: 13px;
+    margin-right: 1;
+    border: none;
+}
+.sign-up{
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 13px;
+    border: none;
+} */
+.main{
+    width: 742.42px;
+    height: 104px;
+}
+.search{
+    width: 408px;
+    height: 56px;
+}
+.map-marker{
+    width: 24px;
+    height: 24px;
+}
+.search input{
+    width: 292px;
+    height: 22px;
+}
+.search .red-arrow{
+    width: 40px;
+    height: 40px;
+}
+.search .red-arrow button{
+     width: 40px;
+     height: 40px;
+}
+.search .red-arrow button i{
+    width: 24px;
+    height: 24px;
+}
+.user{
+    width: 203.5px;
+    height: 32px;
+    background-color: #FFFFFF;
+    margin: 16px 0px 0px;
+}
+.user-sub{
+    width: 203.5px;
+    height: 20px;
+}
+.user-sub span{
+    width: 179.5px;
+    height: 20px;
+}
+.user-sub span i{
+    width: 16px;
+    height: 16px;
+}
+.user-sub span .sign{
+    width: 159.5px;
+    height: 20px;
+    color: #191919;
+    font-size: 14px;
+}
