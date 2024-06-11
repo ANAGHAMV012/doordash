@@ -11,7 +11,6 @@ header{
     width:100%;
     height: 67.25vh;
     position: relative;
-    /* background-size: 100%; */
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(images/desktop.webp);
@@ -26,52 +25,59 @@ header{
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.nav-bar{
-    display: flex;
-}
-.nav-bar li{
-    font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    padding-left: 2px;
-    list-style: none;
+.hidden{
+    width: 400px;
 }
 .head{
+    width: 742.42px;
+    height: 578px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 11vh;
-    align-items: center;
+    margin-top: 11px;
+    margin-left: 540px;
     color: white;
-    font-size: 30;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .head h2{
     width: 742.42px;
     height:40px;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 38px;
     text-wrap: nowrap;
     font-family: var(--usage-type-display-large-font-family), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    /* line-height: var(--usage-type-display-large-line-height); */
-    /* letter-spacing: var(--usage-type-display-large-letter-spacing); */
-    /* text-decoration: var(--usage-type-display-large-text-decoration); */
-    /* text-transform: none; */
     display: block;
+    margin-top: 10px;
+}
+.dwn-head{
+    width: 742.42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 .logo{
-    width: 0;
+    width: 1019px;
     font-weight: lighter;
-    height:168px;    
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
 }
 .logo img{
-    width:220px;
-    /* font-size: medium; */
+    width: 218px;
+    height: 32px;
+    position: relative;
+    margin-left: -10px;
 }
 .button{
-    padding: 10px;
+    display: flex;
+    justify-content: end;
+    width: 400px;
+    height: 40px;
+    margin: 15px -5px 0px;
 }
 .search button img{
     width: 30px;
@@ -80,12 +86,14 @@ header{
     top: -18px;
 }
 .sign-in{
-    color: white;
+    color: #FFFFFF;
     background-color: #EB1700;
     border-radius: 25px;
-    padding: 13px;
-    margin-right: 1;
+    padding: 12px;
+    margin-right: 10px;
     border: none;
+    font-weight: bolder;
+    font-size: 16px;
 }
 .sign-in:hover{
     background-color: rgb(209, 65, 65);
@@ -93,9 +101,12 @@ header{
 .sign-up{
     border-radius: 25px;
     background-color: white;
-    color: black;
-    padding: 13px;
+    color: #494949;
+    padding: 12px;
     border: none;
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 16px;
 }
 .search{
     position: relative;
@@ -107,22 +118,22 @@ header{
     align-items: center;
     padding: 2px;
     cursor: pointer;
-    top: 30px;
+    top: 23px;
+    left: -2px;
     border: 1px solid rgb(0, 162, 255);
     padding: 8px 8px 8px 20px;
 }
 .search i{
-    font-size: 16px;
-    color:#FFFFFF
+    font-size: 18px;
+    color:#FFFFFF;
 }
 .search input{
-    flex: 1;
     width: 292px;
     height: 22;
     border: none;
     outline: none;
-    font-size: 17px;
-    margin: 20px;
+    font-size: 16px;
+    margin: 10px;
 }
 .search .map-marker img{
     width: 24px;
@@ -138,28 +149,17 @@ header{
     background-color: #EB1700;
     border-radius: 200px;
     border: none;
-    /* align-items: center; */
-    /* text-align: center; */
 }
 .search .red-arrow i{
     width: 24px;
     height: 24px;
     position: relative;
     margin-top: 10px;
-    /* align-items: center; */
-    /* text-align: center; */
-/* }
-.search .red-arrow i::before{
-    width: 24px;
-    height: 24px;
-    /* align-items: center; */
-    /* text-align: center; */
-} */
+} 
 .sign{
     border-radius: 25px;
     width: 180px;
     height: 28px;
-    /* padding-top: 6px; */
 }
 .sign a{
     color: black;
@@ -174,7 +174,7 @@ header{
     border: none;
     width: 203.5px;
     height: 32px;
-    margin: 16px 0px 0px;
+    margin: 40px 0px 0px;
 }
 .user span{
     width: 179.5px;
@@ -182,16 +182,12 @@ header{
     display: flex;
     align-items: center;
     gap: 5px;
-    /* justify-content: space-between; */
 }
 .user i{
     width: 16px;
     height: 16px;
     padding: 10px;
     padding-top: 0px;
-    /* align-items: center; */
-    /* text-align: center; */
-    /* margin-left: 20px; */
 }
 .user .sign{
     width: 159.5px;
@@ -213,11 +209,11 @@ header{
     margin-left: -126px;
 }
 .first h4{
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
 }
 .first p{
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
 }
 .item .set{
@@ -243,50 +239,80 @@ header{
     width: 250px;
 }
 .second{
+    width: 1835px;
+    height: 544px;
+    margin: 0px 0px -60px;
     display:flex;
     padding-left: 400px;
     gap: 123px;
     overflow: hidden;
 }
 .second .side{
-    width: 300px;
+    width: 400px;
+    height: 290px;
     margin-top: 80px;
     margin-left: -60px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .second h2{
-    font-size: 29px;
+    width: 360px;
+    height: 80px;
+    color: #191919;
+    font-size: 40px;
+    margin: 20px 0px 0px;
 }
 .second h6{
-    font-size: 14px;
+    font-size: 20px;
+    width: 400px;
+    height: 24px;
+    color: #191919;
 }
 .second p{
-    font-size: 12px;
+    font-size: 16px;
+    width: 400px;
+    height: 66px;
+    color: #191919;
+    margin: 10px 0px 0px;
 }
 .second img{
-    float: right;
-    margin-left: 6px;
+    width: 695.02px;
+    height: 500px;
+    margin-left: -64px;
+}
+.second button{
+    width:146.02px;
+    height: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.second button span{
+    width: 122.02px;
+    height: 22px;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 .third{
     width: 1835px;
     height: 604px;
     background-color: #FEF1EE;
     padding: 80px 20px 20px;
-    /* margin-left: 280px; */
+    display: flex;
+    justify-content: center;
 }
 .third-sub{
     width: 1184px;
     height: 504px;
     display: flex;
-    padding: 80px 20px 20px;;
+    justify-content: space-between;
 }
 .third .dashpass{
-    float: right;
-    margin-left: 180px;
     align-items: center;
     width: 400px;
     height: 256px;
-    /* margin-top: 150px; */
+    margin-top: 80px;
 }
 .dashpass p{
     width: 400px;
@@ -307,7 +333,6 @@ header{
     font-size: larger;
     width: 724px;
     height: 500px;
-    margin: -80px 0px 0px
 }
 .third-button-container{
     width:400px;
@@ -337,19 +362,16 @@ header{
     justify-content: center;
     text-align: center;
 }
-.fourth img{
-    width: 5%;
-    height: 30vh;
-    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
-    position: relative;
-    z-index: 2;
+.fourth::before{
+    content:"";
+    position: absolute;
+    width: 1835px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .fourth-text{
     color: white;
-    background: rgba(0, 0, 0, 0.5);
     position: relative;
-    z-index: 2;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     width: 1835px;
 }
@@ -366,43 +388,64 @@ header{
     font-size: 15px;
 }
 .fifth{
-    /* width: 1835px;
-    height: 600px;
-    color:#000000;
-    font-size: 16px;
-    padding: 50px; */
     display: flex;
-    padding: 50px;
+    justify-content: center;
+    width: 1835px;
+    height: 584px;
+    margin: 0px 0px -40px;
+    padding: 60px 20px 20px;
+}
+.fifth-sub{
+    width: 1155.02px;
+    height: 504px;
+    display: flex;
+    justify-content: space-between;
+}
+.delivery{
+    width: 400px;
+    height: 274px;
+    margin-top: 80px;
+    margin-left: -60px;
 }
 .fifth h2{
     font-size: 40px;
-    /* margin: 20px 0px 0px; */
+    width: 360px;
+    height: 120px;
+    color: #191919;
+    margin: 20px 0px 0px;
 }
 .fifth p{
     font-size: 16px;
+    width: 400px;
+    height: 44px;
+    color: #191919;
+    font-size: 16px;
+    margin: 20px 0px 0px;
 }
-/* .fifth-button-container{
+.fifth-button-container{
     width: 400px;
     height: 40px;
+    color: #191919;
     margin: 30px 0px 0px;
 }
-.fifth button{
+.fifth-button-container a{
     width: 100.33px;
     height: 40px;
     background-color: #EB1700;
 }
-.fifth button a{
+.fifth-button-container a span{
     width: 76.33px;
     height: 22px;
     color: #FFFFFF;
     font-size: 16px;
 }
-/* .delivery{
-    width: 400px;
-    height: 274px;
-} */ */
 .fifth-image{
-    margin-left: 200px;
+    width: 695.02px;
+    height: 500px;
+}
+.fifth-image img{
+    width: 695.02px;
+    height: 500px;
 }
 .sixth-heading{
     width: 1835px;
@@ -428,21 +471,17 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 1835px;
-    padding: 0px;
+    justify-items: center;
 }
 .sixth .one{
-    /* gap: -200px; */
-    margin: 20px 45px 0px 280px;
-    /* text-align: center; */
     width: 592px;
     height:826px;
     padding: 20px;
+    margin-right: -326px;
 }
 .sixth .one img{
     width: 552px;
     height: 552px;
-    margin-top: -20px;
-    /* margin-left: -400px; */
 }
 .sixth .one .package{
     display: flex;
@@ -464,7 +503,7 @@ header{
 }
 .sixth .one p{
     width:95%;
-    font-size: 20px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -474,13 +513,17 @@ header{
     width: 592px;
     height:826px;
     padding: 20px;
-    /* margin: 2px; */
+    margin-right: 326px;
 }
 .sixth .two-img img{
     width: 552px;
     height:552px;
 }
 .sixth .two .flower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 172px;
     width:543.84px;
     text-align: center;
@@ -490,25 +533,19 @@ header{
     width: 453.97px;
     height: 40px;
     color: #191919;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* left: 0; */
-    font-size: 40px;
+    font-size: 38px;
     margin: 20px 0px 0px;
     text-wrap: nowrap;
 }
 .flower p{
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px 0px 0px;
 }
 .three{
     width: 592px;
-    height: 826px;
+    height:826px;
     padding: 20px;
-    margin: 20px 45px 0px 280px;
+    margin-right: -326px;
 }
 .three img{
     width: 552px;
@@ -517,25 +554,39 @@ header{
 .alcohol{
     width: 552px;
     height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .alcohol h2{
-    width: 372px;
+    width: 372.22px;
     height: 40px;
     color: #191919;
-    font-size: 40px;
+    font-size: 42px;
     margin: 20px 0px 0px;
 }
-.alcohol p{
+.alcohol .para1{
     width: 552px;
     height: 44px;
     color: #191919;
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 0px 0px;
+    text-align: center;
+}
+.alcohol .para2{
+    width: 200.17px;
+    height: 20px;
+    color: #191919;
+    font-size: 14px;
+    margin: 20px 0px 0px;
+    text-align: center;
 }
 .four{
     width: 592px;
     height: 826px;
     padding: 20px;
+    margin-right: 326px;
 }
 .four img{
     width: 552px;
@@ -544,6 +595,10 @@ header{
 .pets{
     width: 552px;
     height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .pets h2{
     width: 496.8px;
@@ -551,12 +606,13 @@ header{
     color: #191919;
     font-size: 40px;
     margin: 20px 0px 0px;
+    text-align: center;
 }
 .pets p{
     width: 552px;
     height: 44px;
     color: #191919;
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 0px 0px;
 }
 .seventh{
@@ -566,15 +622,14 @@ header{
     padding: 60px 20px 40px;
     display: flex;
     justify-content: center;
-    padding-left: 400px;
-    gap: 123px;
-    overflow: hidden;
+    text-align: center;
 }
 .seventh h2{
     width: 500px;
     height: 80px;
     color: #191919;
-    font-size: 32px;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .eighth{
     width: 1835px;
@@ -582,15 +637,21 @@ header{
     margin: 0px 0px -60px;
     padding: 20px;
     display: flex;
+    justify-content: center;
 }
 .eighth-sub{
     width: 1155.02px;
     height: 504px;
     display: flex;
+    justify-content: space-between;
 }
 .e-sub{
     width: 400px;
     height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .eighth-sub img{
     width: 695.02px;
@@ -624,11 +685,6 @@ header{
     color: #191919;
     font-size: 16px;
     margin: 20px 0px 0px;
-}
-.button{
-    width: 400px;
-    height: 40px;
-    margin: 30px 0px 0px;
 }
 .ten{
     width: 1130px;
@@ -669,18 +725,11 @@ header{
     color: #191919;
     font-size: 16px;
 }
-.second button{
-    border-radius: 25px;
-    padding: 10px;
-    background-color: red;
-    color: white;
-    border: none;
-}
 .third button{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
 }
 .fourth button {
@@ -697,36 +746,48 @@ header{
     color: white;
     border: none;
 }
-.package button{
+.package a{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flower button{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .alcohol button{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .pets button{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .nine-sub button{
     border-radius: 25px;
@@ -736,13 +797,8 @@ header{
     border: none;
     margin-top: 20px;
 }
-@media screen and (max-width: 1183px){
-.head .red-arrow{
-    
-}
-}
 footer{
-    width: 1854px;
+    width: 1835px;
     height: 784px;
     background-color:#191919;
     display: flex;

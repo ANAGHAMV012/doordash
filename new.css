@@ -6,7 +6,8 @@
 }
 header{
     width: 1835px;
-    height: 650px;padding: 0px 8px;
+    height: 650px;
+    padding: 0px 8px;
     background-image: url(images/desktop.webp);
     background-position: center;
     background-size: cover;
@@ -39,7 +40,7 @@ header{
 .nav{
     width: 1835px;
     height: 40px;
-    /* padding: 0px 24px 0px 0px; */
+    padding: 0px 24px 0px 0px;
     display: flex;
     justify-content: space-between;
     /* padding-top: 20px; */
