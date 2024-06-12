@@ -222,7 +222,7 @@ header{
 .item .set i{
     margin-top: 4px;
     margin-left: 10px;
-    color: red;
+    color: #EB1700;
 }
 .item{
     width: 300px;
@@ -232,7 +232,7 @@ header{
     height:154px;
 }
 .item h3{
-    color: red;
+    color: #EB1700;
 }
 .item-text{
     margin-left: -60px;
@@ -284,8 +284,8 @@ header{
     height: 40px;
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
 }
 .second button span{
@@ -370,7 +370,7 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
 }
 .fourth-text{
-    color: white;
+    color: #FFFFFF;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     width: 1835px;
@@ -403,41 +403,49 @@ header{
 }
 .delivery{
     width: 400px;
-    height: 274px;
-    margin-top: 80px;
-    margin-left: -60px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .fifth h2{
-    font-size: 40px;
+    font-size: 45px;
     width: 360px;
     height: 120px;
+    line-height: 38px;
     color: #191919;
-    margin: 20px 0px 0px;
+    /* margin: 20px 0px 0px; */
 }
 .fifth p{
     font-size: 16px;
     width: 400px;
     height: 44px;
     color: #191919;
-    font-size: 16px;
-    margin: 20px 0px 0px;
+    font-size: 19px;
+    margin-bottom: -20px;
 }
 .fifth-button-container{
     width: 400px;
     height: 40px;
     color: #191919;
     margin: 30px 0px 0px;
+    display: flex;
+    justify-content: start;
 }
 .fifth-button-container a{
     width: 100.33px;
     height: 40px;
     background-color: #EB1700;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
 }
 .fifth-button-container a span{
     width: 76.33px;
     height: 22px;
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
 }
 .fifth-image{
     width: 695.02px;
@@ -647,15 +655,52 @@ header{
 }
 .e-sub{
     width: 400px;
-    height: 256px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .eighth-sub img{
     width: 695.02px;
     height: 500px;
+}
+.eighth h2{
+    width: 360px;
+    height: 80px;
+    color: #191919;
+    font-size: 43px;
+    margin: 20px 0px 0px;
+    line-height: 38px;
+}
+.eighth p{
+    width: 400px;
+    height: 66px;
+    color: #191919;
+    font-size: 17px;
+    margin: 20px 0px 0px;
+}
+.eighth .button{
+    width: 400px;
+    height: 40px;
+    margin: 30px 0px 0px;
+    display: flex;
+    justify-content: start;
+}
+.eighth .button a{
+    width: 152.81px;
+    height: 40px;
+    background-color: #EB1700;
+    border-radius: 25px;
+    padding: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+}
+.eighth .button a span{
+    width: 128.81px;
+    height: 22px;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 .nine{
     width: 1835px;
@@ -663,14 +708,24 @@ header{
     background-color: #FEF1EE;
     padding: 80px 20px 20px;
     display: flex;
+    justify-content: center;
+}
+.nine-sub{
+    width: 1184px;
+    height: 504px;
+    display: flex;
+    justify-content: space-between
 }
 .nine img{
     width: 724px;
     height: 500px;
 }
-.nine-sub{
+.n-sub{
     width: 400px;
-    height: 296px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .nine-sub h2{
     width: 360px;
@@ -678,18 +733,56 @@ header{
     color: #191919;
     font-size: 40px;
     margin: 20px 0px 0px;
+    line-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 .nine-sub p{
     width: 400px;
     height: 66px;
     color: #191919;
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 0px 0px;
 }
+.nine-sub .button{
+    width: 400px;
+    height: 40px;
+    margin: 30px 0px 0px;
+    display:flex;
+    justify-content: left;
+
+}
+.nine-sub .button a{
+    width: 156.25px;
+    height: 40px;
+    background-color:#EB1700;
+    border-radius: 25px;
+    padding: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+}
+.nine-sub .button a span{
+    width: 132.25px;
+    height: 22px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
 .ten{
+    width: 1835px;
+    height: 336px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ten-sub{
     width: 1130px;
     height: 336px;
     padding: 48px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .ten h2{
     width: 1130px;
@@ -697,6 +790,8 @@ header{
     color: #191919;
     font-size: 32px;
     margin: 0px 0px 20px;
+    display: flex;
+    justify-content: center;
 }
 .ten-nav{
     width: 1130px;
@@ -705,6 +800,8 @@ header{
 .ten-nav-A{
     width: 376.63px;
     height: 40px;
+    display: flex;
+    justify-content: center;
 }
 .ten-main{
     width: 1130px;
@@ -712,18 +809,25 @@ header{
 }
 .ten-main ul{
     width: 226px;
-    height: 40px;
+    height: 120px;
 }
-.ten-main ul a{
+.ten-main ul li{
     width: 226px;
     height: 40px;
     background-color: #FFFFFF;
 }
-.ten-main ul li{
+.ten-main ul li a{
+    width: 226px;
+    height: 22px;
+    padding: 0px 12px;
+}
+.ten-main ul li a span{
     width: 202px;
     height: 22px;
     color: #191919;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
 }
 .third button{
     border-radius: 25px;
@@ -735,15 +839,15 @@ header{
 .fourth button {
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
 }
 .delivery button{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
 }
 .package a{
@@ -792,59 +896,103 @@ header{
 .nine-sub button{
     border-radius: 25px;
     padding: 10px;
-    background-color: red;
-    color: white;
+    background-color: #EB1700;
+    color: #FFFFFF;
     border: none;
     margin-top: 20px;
 }
 footer{
-    width: 1835px;
-    height: 784px;
+    width: 1850px;
+    height: 812px;
     background-color:#191919;
     display: flex;
     justify-content: center;
 }
 .foot{
     width: 1184px;
-    height: 784px;
-    /* padding-left: 357.5px; */
-    /* padding-right: 357.5px; */
+    height: 812px;
 }
 .foot-sub{
     width: 1160px;
-    height: 784px;
+    height: 812px;
     margin: 0px 12px;
     padding: 0px 20px;
 }
-.foot-sub ul li{
-    list-style: none;
-    height: 20px;
-}
-.row1 ul li a span{
-    margin-top: 8px;
-}
 .A{
     width: 1120px;
-    height: 234px;
+    height: 262px;
     padding: 32px 0px;
 }
 .A h2{
     width: 1120px;
     height: 22px;
     color: #FFFFFF;
-    margin: 0px 0px 8px;
+    margin: 0px -8px 8px;
     font-size: 16px;
 }
 .A .box1{
     width:1120px;
-    height: 140px;
+    height: 168px;
     display: flex;
 }
 .A .box1 .row1{
     width: 271px;
-    height: 140px;
+    height: 168px;
+    margin-left: -8px;
 }
-.A .box1 .row1 a{
+.A .box1 .row1 li{
+    list-style: none;
+    margin-top: 10px;
+}
+.A .box1 .row1 li a{
+    width: 271px;
+    height:20px;
+    color: #C4C4C4;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A .box1 .row2{
+    width: 271px;
+    height: 168px;
+    margin-left: 12px;
+}
+.A .box1 .row2 li{
+    list-style: none;
+    margin-top: 10px;
+}
+.A .box1 .row2 li a{
+    width: 271px;
+    height:20px;
+    color: #C4C4C4;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A .box1 .row3{
+    width: 271px;
+    height: 168px;
+    margin-left: 12px;
+}
+.A .box1 .row3 li{
+    list-style: none;
+    margin-top: 10px;
+}
+.A .box1 .row3 li a{
+    width: 271px;
+    height:20px;
+    color: #C4C4C4;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A .box1 .row4{
+    width: 271px;
+    height: 168px;
+    margin-left: 12px;
+}
+.A .box1 .row4 li{
+    list-style: none;
+    margin-top: 10px;
+}
+.A .box1 .row4 li a{
     width: 271px;
     height:20px;
     color: #C4C4C4;
@@ -861,6 +1009,11 @@ footer{
     height: 454px;
     display: flex;
     justify-content: space-between;
+    margin-left: -10px;
+}
+.B li{
+    list-style: none;
+    line-height: 27.3px;
 }
 .B .left-B .col1{
     width: 113.77;
@@ -876,7 +1029,7 @@ footer{
 .B .left-B .col1{
     width: 113.77px;
     height: 454px;
-    /* padding: 32px 0px 0px; */
+    padding: 32px 0px 0px;
 }
 .B .left-B .col1 li a{
     color: #C4C4C4;
@@ -887,6 +1040,7 @@ footer{
 .B .left-B .col2{
     width: 116.09;
     height: 454px;
+    padding: 32px 0px 0px;
 }
 .B .left-B .col2 li a{
     width: 116.09px;
@@ -897,7 +1051,7 @@ footer{
     height: 22px;
     color: #FFFFFF;
     font-size: 16px;
-    margin: 0px 0px 8px;
+    margin: -6px 0px 8px;
 }
 .B .left-B .col2 a{
     width: 116.09px;
@@ -908,6 +1062,7 @@ footer{
 .B .left-B .col3{
     width: 170.31;
     height: 454px;
+    padding: 32px 0px 0px;
 }
 .B .left-B .col3 h2{
     width: 170.31px;
@@ -944,7 +1099,7 @@ footer{
     padding: 2px 8px;
 }
 .B .right-B .B-sub a .appstore img{
-    color: red;
+    color: #EB1700;
 }
 .B .right-B .B-sub a .playstore{
     width: 160px;
@@ -1040,6 +1195,14 @@ footer{
     height: 32px;
     background: #F7F7F7;
     padding: 4px 12px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.mid-1 i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mid-1 button{
     display: flex;
@@ -1086,19 +1249,28 @@ footer{
 #languages{
     width: 94px;
     height: 20px;
+    border: none;
 }
 .C-end{
     width: 96px;
     height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .C-end a{
     width: 24px;
     height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .C-end a i{
     width: 24px;
     height: 24px;
     color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
 }
 .ten-nav{
     display:flex;
